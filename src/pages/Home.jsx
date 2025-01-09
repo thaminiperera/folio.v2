@@ -1,10 +1,13 @@
 import React from "react";
 import Github from "../assets/github.png";
 import Linkedin from "../assets/linkedin.png";
+import Workbar from "../components/Workbar";
+import { workitems } from "../workitems";
 
 const Home = () => {
   return (
     <>
+    {/* Landing */}
       <div className=" text-[var(--gold)] italiana uppercase text-[128px] leading-[128px] pt-[140px] sm:text-center lg:text-left">
         <div className="lg:ml-[30%] fade-in" style={{ animationDelay: "0s" }}>
           Hello, I'm
@@ -32,7 +35,10 @@ const Home = () => {
           <a target="_blank" href="https://www.linkedin.com/in/thaminiperera/"><img src={Linkedin} className="cursor-pointer" /></a>
         </div>
       </div>
-      <div></div>
+      {/* Work */}
+      <div className="pt-[50px]">
+        {workitems.map((project) => (<Workbar project={project}/>))}
+        </div>
     </>
   );
 };

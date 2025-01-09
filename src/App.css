@@ -4,6 +4,7 @@
   box-sizing: border-box;
   margin: 0;
   background-color: #111110;
+  width: 100dvw;
 
   --black: #111110;
   --gold: #d5c09f;
