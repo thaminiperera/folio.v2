@@ -26,10 +26,10 @@ const Interpreter = () => {
       <div className="w-full  text-[var(--gold)] flex justify-center bg-[#1F1F1E] min-h-dvh mb-[20px] md:mb-[50px] fade-in">
         <div className="lg:w-[60%] center bg-[var(--black)] px-[20px] md:px-[30px] lg:px-[50px]">
           <div className="block italiana-bold text-[40px] md:text-[60px] mt-[20px] uppercase">
-            Basic-inspired language interpreter
+            {workitems[index].title}
           </div>
           <div className="text-justify mt-2 raleway block">
-            As part of my journey to delve deeper into the mechanics of
+          As part of my journey to delve deeper into the mechanics of
             programming languages and their interpretation, I decided to build a
             custom interpreter for a language inspired by BASIC. The goal was to
             create an interactive, robust, and extensible interpreter capable of
@@ -39,16 +39,20 @@ const Interpreter = () => {
             development of the interpreter.
           </div>
           <div className="flex gap-5 block">
-          <a target="_blank" href="https://github.com/thaminiperera/interpreter"><div className="flex items-center gap-2 mt-[30px] md:mt-[50px] raleway-bold underline ">
-              Github Link{" "}
-              {
-                <img
-                  className="w-[10px] h-[10px]"
-                  src="src\assets\up-right-arrow.png"
-                />
-              }
-             
-            </div> </a>
+            <a
+              target="_blank"
+              href="https://github.com/thaminiperera/interpreter"
+            >
+              <div className="flex items-center gap-2 mt-[30px] md:mt-[50px] raleway-bold underline ">
+                Github Link{" "}
+                {
+                  <img
+                    className="w-[10px] h-[10px]"
+                    src="src\assets\up-right-arrow.png"
+                  />
+                }
+              </div>{" "}
+            </a>
 
             <a target="_blank" href="https://tdp-interpreter.netlify.app/"><div className="flex items-center gap-2 mt-[30px] md:mt-[50px] raleway-bold underline ">
               Demo{" "}
@@ -85,7 +89,7 @@ const Interpreter = () => {
               />
             </div>
             <div className="w-[100%] md:w-[50%] text-justify block">
-              The interpreter was designed to be modular, following the classic
+            The interpreter was designed to be modular, following the classic
               structure of a language interpreter: tokenization, parsing,
               execution, and error handling. I focused on clarity and
               maintainability, making it easy to add new features and enhance
@@ -284,7 +288,7 @@ const Interpreter = () => {
           </div>
 
           <div className="flex flex-col md:flex-row gap-2 md:gap-5 w-full raleway mt-[20px]">
-          <div className="block w-[100%] md:w-[50%] text-justify ">
+            <div className="block w-[100%] md:w-[50%] text-justify ">
               This project is a full-stack application combining a FastAPI-based
               backend and a React-based frontend to create a seamless code
               execution platform. The application enables users to submit and
@@ -303,7 +307,6 @@ const Interpreter = () => {
                 src="src\assets\interpreter\mockup_lap.png"
               />
             </div>
-           
           </div>
           <div className="block raleway-bold uppercase md:text-[30px] text-[20px] mt-[20px] md:mt-[50px]">
             Key Features
