@@ -24,8 +24,8 @@ const Ecomm = () => {
         </div>
       </div>
 
-      <div className="w-full  text-[var(--gold)] flex justify-center bg-[#1F1F1E] min-h-dvh mb-[20px] md:mb-[50px] fade-in">
-        <div className="lg:w-[60%] center bg-[var(--black)] px-[20px] md:px-[30px] lg:px-[50px]">
+      <div className="w-full  text-[var(--gold)] flex justify-center bg-[#1F1F1E] min-h-dvh mb-[20px] md:mb-[50px] lg:mb-[0px] fade-in">
+        <div className="lg:w-[60%] center bg-[var(--black)] px-[20px] md:px-[30px] lg:px-[50px] pb-[20px] md:pb-[100px]">
           <div className="block italiana-bold text-[40px] md:text-[60px] mt-[20px] uppercase">
             {workitems[index].title}
           </div>
@@ -37,7 +37,7 @@ const Ecomm = () => {
             code, modularity, and user experience, this project is designed to
             be both scalable and adaptable.
           </div>
-          <div className="flex gap-5 block">
+          <div className="flex my-[20px] text-[var(--red)] gap-5 block">
             <a target="_blank" href="https://github.com/thaminiperera/ecomm">
               <div className="flex items-center gap-2 mt-[30px] md:mt-[50px] raleway-bold underline ">
                 Github Link{" "}
@@ -67,7 +67,7 @@ const Ecomm = () => {
             {workitems[index].tags.map((tag) => (
               <div
                 key={tag}
-                className=" rounded-lg raleway-bold text-[12px] px-2 py-1 text-[var(--red)] border border-[var(--red)]"
+                className=" rounded-lg raleway-bold text-[12px] px-2 py-1 text-[var(--gold)] border border-[var(--gold)]"
               >
                 {tag}
               </div>
@@ -82,7 +82,7 @@ const Ecomm = () => {
           <div className="flex flex-col md:flex-row gap-2 md:gap-5 w-full raleway mt-[20px] items-center">
             <div className="w-[100%] md:w-[50%] flex justify-center items-center block">
               <img
-                className="w-[100%] md:w-[100%] h-[300px]"
+                className="w-[100%] md:w-[50%] h-[300px]"
                 src="src\assets\ecomm\mockup_lap.png"
               />
             </div>
@@ -412,26 +412,24 @@ const Ecomm = () => {
               Assests :
             </h1>
           </div>
-          <div className="raleway text-justify">
+          <div className="raleway text-justify w-full">
             <ul className="block flex flex-col gap-2 list-disc mt-[15px]">
               <li className="">
-                <b>Logo :</b>{" "}
                 <a
                   target="_blank"
                   href="https://www.svgrepo.com/"
                   className="underline"
                 >
-                  https://www.svgrepo.com/
+                  <b>Logo </b>{" "}
                 </a>
               </li>
               <li className="">
-                <b>Product List :</b>{" "}
                 <a
                   target="_blank"
                   href="https://gist.github.com/nefejames/bbeda8f257d7fa94b3e863926e730875"
-                  className="underline"
+                  className="underline flex-wrap"
                 >
-                  https://gist.github.com/nefejames/bbeda8f257d7fa94b3e863926e730875
+                  <b>Product List </b>{" "}
                 </a>
               </li>
             </ul>

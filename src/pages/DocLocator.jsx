@@ -23,8 +23,8 @@ const DocLocator = () => {
         </div>
       </div>
 
-      <div className="w-full  text-[var(--gold)] flex justify-center bg-[#1F1F1E] min-h-dvh mb-[20px] md:mb-[50px] fade-in">
-        <div className="lg:w-[60%] center bg-[var(--black)] px-[20px] md:px-[30px] lg:px-[50px]">
+      <div className="w-full  text-[var(--gold)] flex justify-center bg-[#1F1F1E] min-h-dvh mb-[20px] md:mb-[50px] lg:mb-[0px] fade-in">
+        <div className="lg:w-[60%] center bg-[var(--black)] px-[20px] md:px-[30px] lg:px-[50px] pb-[20px] md:pb-[100px]">
           <div className="block italiana-bold text-[40px] md:text-[60px] mt-[20px] uppercase">
             {workitems[index].title}
           </div>
@@ -41,7 +41,7 @@ const DocLocator = () => {
             platform for locating nearby doctors and requesting on-site
             treatment services.
           </div>
-          <div className="flex gap-5 block">
+          <div className="flex my-[20px] text-[var(--red)] gap-5 block">
             <a
               target="_blank"
               href="https://github.com/thaminiArchnix/DocLocator"
@@ -62,7 +62,7 @@ const DocLocator = () => {
             {workitems[index].tags.map((tag) => (
               <div
                 key={tag}
-                className=" rounded-lg raleway-bold text-[12px] px-2 py-1 text-[var(--red)] border border-[var(--red)]"
+                className=" rounded-lg raleway-bold text-[12px] px-2 py-1 text-[var(--gold)] border border-[var(--gold)]"
               >
                 {tag}
               </div>
