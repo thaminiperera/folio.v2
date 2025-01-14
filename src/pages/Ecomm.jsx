@@ -82,7 +82,7 @@ const Ecomm = () => {
           <div className="flex flex-col md:flex-row gap-2 md:gap-5 w-full raleway mt-[20px] items-center">
             <div className="w-[100%] md:w-[50%] flex justify-center items-center block">
               <img
-                className="w-[100%] md:w-[50%] h-[300px]"
+                className="w-[100%] md:w-[50%] h-[300px] md:h-[200px] lg:h-[240px]"
                 src="src\assets\ecomm\mockup_lap.png"
               />
             </div>
