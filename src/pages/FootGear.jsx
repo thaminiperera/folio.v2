@@ -15,7 +15,7 @@ const FootGear = () => {
         <div className="absolute insert-0 w-full z-10 h-[100%] bg-gradient-to-b from-[var(--gold)] to-[var(--black)] opacity-70"></div>
         <img
           className="w-full h-full object-cover absolute z-0"
-          src="src\assets\footgear\footgear_cover.jpg"
+          src="footgear\footgear_cover.jpg"
           alt="DocLocator Cover"
         />
 
@@ -48,7 +48,7 @@ const FootGear = () => {
                 {
                   <img
                     className="w-[10px] h-[10px]"
-                    src="src\assets\up-right-arrow.png"
+                    src="up-right-arrow.png"
                   />
                 }
               </div>{" "}
@@ -75,7 +75,7 @@ const FootGear = () => {
             <div className="w-[100%] md:w-[50%] flex justify-center items-center block">
               <img
                 className="w-[50%] md:w-[50%] h-[300px]"
-                src="src\assets\footgear\mock_front.png"
+                src="footgear\mock_front.png"
               />
             </div>
             <div className="w-[100%] md:w-[50%] text-justify block">
