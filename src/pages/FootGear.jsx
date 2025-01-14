@@ -15,7 +15,7 @@ const FootGear = () => {
         <div className="absolute insert-0 w-full z-10 h-[100%] bg-gradient-to-b from-[var(--gold)] to-[var(--black)] opacity-70"></div>
         <img
           className="w-full h-full object-cover absolute z-0"
-          src="src\assets\footgear\footgear_cover.jpg"
+          src="footgear\footgear_cover.jpg"
           alt="DocLocator Cover"
         />
 
