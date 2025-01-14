@@ -29,7 +29,7 @@ const Interpreter = () => {
             {workitems[index].title}
           </div>
           <div className="text-justify mt-2 raleway block">
-          As part of my journey to delve deeper into the mechanics of
+            As part of my journey to delve deeper into the mechanics of
             programming languages and their interpretation, I decided to build a
             custom interpreter for a language inspired by BASIC. The goal was to
             create an interactive, robust, and extensible interpreter capable of
@@ -54,15 +54,17 @@ const Interpreter = () => {
               </div>{" "}
             </a>
 
-            <a target="_blank" href="https://tdp-interpreter.netlify.app/"><div className="flex items-center gap-2 mt-[30px] md:mt-[50px] raleway-bold underline ">
-              Demo{" "}
-              {
-                <img
-                  className="w-[10px] h-[10px]"
-                  src="src\assets\up-right-arrow.png"
-                />
-              }
-            </div></a>
+            <a target="_blank" href="https://tdp-interpreter.netlify.app/">
+              <div className="flex items-center gap-2 mt-[30px] md:mt-[50px] raleway-bold underline ">
+                Demo{" "}
+                {
+                  <img
+                    className="w-[10px] h-[10px]"
+                    src="src\assets\up-right-arrow.png"
+                  />
+                }
+              </div>
+            </a>
           </div>
           <div className="flex gap-2 my-2 raleway-bold block">
             Technologies :{" "}
@@ -89,7 +91,7 @@ const Interpreter = () => {
               />
             </div>
             <div className="w-[100%] md:w-[50%] text-justify block">
-            The interpreter was designed to be modular, following the classic
+              The interpreter was designed to be modular, following the classic
               structure of a language interpreter: tokenization, parsing,
               execution, and error handling. I focused on clarity and
               maintainability, making it easy to add new features and enhance
@@ -287,19 +289,15 @@ const Interpreter = () => {
             </h1>
           </div>
 
-          <div className="flex flex-col md:flex-row gap-2 md:gap-5 w-full raleway mt-[20px]">
+          <div className="flex flex-col md:flex-row gap-2 md:gap-5 w-full raleway mt-[20px] items-center">
             <div className="block w-[100%] md:w-[50%] text-justify ">
               This project is a full-stack application combining a FastAPI-based
               backend and a React-based frontend to create a seamless code
               execution platform. The application enables users to submit and
-              execute code dynamically, either through file uploads or by typing
-              snippets directly into a text area. Designed for both efficiency
-              and user-friendliness, the backend leverages FastAPI’s
-              high-performance asynchronous capabilities, while the frontend
-              provides a sleek, intuitive interface for interaction. This
-              integrated system is ideal for real-time experimentation and
-              testing of code, fostering an engaging and productive environment
-              for users.
+              execute code dynamically by typing snippets directly into a text
+              area. Designed for both efficiency and user-friendliness, the
+              backend leverages FastAPI’s asynchronous capabilities, while the
+              frontend provides an interface for interaction. 
             </div>
             <div className="block w-[100%] md:w-[50%] flex justify-center items-center ">
               <img
@@ -339,17 +337,6 @@ const Interpreter = () => {
               <li className="">
                 Facilitates real-time communication with the backend, displaying
                 execution results instantly.
-              </li>
-            </ul>
-          </div>
-          <div className="block raleway-bold uppercase md:text-[20px] text-[18px] mt-[20px] md:mt-[30px]">
-            Welcome Endpoint
-          </div>
-          <div className="raleway text-justify">
-            <ul className="block flex flex-col gap-2 list-disc mt-[15px]">
-              <li className="">
-                A simple GET endpoint in the backend ensures that the
-                application is running and accessible.
               </li>
             </ul>
           </div>
