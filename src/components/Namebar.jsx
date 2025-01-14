@@ -16,7 +16,7 @@ const Namebar = ({ next }) => {
               className="flex items-center gap-1 m-0 p-0 hover:underline"
               href={next}
             >
-              Next Project{<img src="src\assets\right-arrow.png"/>}
+              Next Project{<img src="right-arrow.png"/>}
             </a>
           </li>
         </ul>

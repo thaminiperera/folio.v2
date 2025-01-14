@@ -14,7 +14,7 @@ const Interpreter = () => {
         <div className="absolute insert-0 w-full z-10 h-[100%] bg-gradient-to-b from-[var(--gold)] to-[var(--black)] opacity-70"></div>
         <img
           className="w-full h-full object-cover absolute z-0"
-          src="src\assets\footgear\footgear_cover.jpg"
+          src="footgear\footgear_cover.jpg"
           alt="Interpreter Cover"
         />
 
@@ -48,7 +48,7 @@ const Interpreter = () => {
                 {
                   <img
                     className="w-[10px] h-[10px]"
-                    src="src\assets\up-right-arrow.png"
+                    src="up-right-arrow.png"
                   />
                 }
               </div>{" "}
@@ -60,7 +60,7 @@ const Interpreter = () => {
                 {
                   <img
                     className="w-[10px] h-[10px]"
-                    src="src\assets\up-right-arrow.png"
+                    src="up-right-arrow.png"
                   />
                 }
               </div>
@@ -87,7 +87,7 @@ const Interpreter = () => {
             <div className="w-[100%] md:w-[50%] flex justify-center items-center block">
               <img
                 className="w-[100%] md:w-[100%] h-[100px] border border-[var(--gold)]"
-                src="src\assets\interpreter\interpreter_shell.png"
+                src="interpreter\interpreter_shell.png"
               />
             </div>
             <div className="w-[100%] md:w-[50%] text-justify block">
@@ -302,7 +302,7 @@ const Interpreter = () => {
             <div className="block w-[100%] md:w-[50%] flex justify-center items-center ">
               <img
                 className="w-[100%] md:w-[100%] h-[300px] "
-                src="src\assets\interpreter\mockup_lap.png"
+                src="interpreter\mockup_lap.png"
               />
             </div>
           </div>

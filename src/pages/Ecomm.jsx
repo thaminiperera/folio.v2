@@ -15,7 +15,7 @@ const Ecomm = () => {
         <div className="absolute insert-0 w-full z-10 h-[100%] bg-gradient-to-b from-[var(--gold)] to-[var(--black)] opacity-70"></div>
         <img
           className="w-full h-full object-cover absolute z-0"
-          src="src\assets\ecomm\ecomm_cover.jpg"
+          src="ecomm\ecomm_cover.jpg"
           alt="Ecomm Cover"
         />
 
@@ -44,7 +44,7 @@ const Ecomm = () => {
                 {
                   <img
                     className="w-[10px] h-[10px]"
-                    src="src\assets\up-right-arrow.png"
+                    src="up-right-arrow.png"
                   />
                 }
               </div>{" "}
@@ -83,7 +83,7 @@ const Ecomm = () => {
             <div className="w-[100%] md:w-[50%] flex justify-center items-center block">
               <img
                 className="w-[100%] md:w-[50%] h-[300px] md:h-[200px] lg:h-[240px]"
-                src="src\assets\ecomm\mockup_lap.png"
+                src="ecomm\mockup_lap.png"
               />
             </div>
             <div className="w-[100%] md:w-[50%] text-justify block">
@@ -186,7 +186,7 @@ const Ecomm = () => {
             <div className="w-[100%] md:w-[50%] flex justify-center items-center block">
               <img
                 className="w-[100%] md:w-[100%] h-[250px] border border-[var(--gold)]"
-                src="src\assets\ecomm\dash.png"
+                src="ecomm\dash.png"
               />
             </div>
             <div className="w-[100%] md:w-[50%] text-justify block">
@@ -223,7 +223,7 @@ const Ecomm = () => {
             <div className="w-[100%] md:w-[50%] flex justify-center items-center block">
               <img
                 className="w-[100%] md:w-[100%] h-[250px] border border-[var(--gold)]"
-                src="src\assets\ecomm\cart.png"
+                src="ecomm\cart.png"
               />
             </div>
           </div>

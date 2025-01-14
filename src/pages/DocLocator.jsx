@@ -14,7 +14,7 @@ const DocLocator = () => {
         <div className="absolute insert-0 w-full z-10 h-[100%] bg-gradient-to-b from-[var(--gold)] to-[var(--black)] opacity-70"></div>
         <img
           className="w-full h-full object-cover absolute z-0"
-          src="src\assets\doclocator\doclocator_cover.jpg"
+          src="doclocator\doclocator_cover.jpg"
           alt="DocLocator Cover"
         />
 
@@ -51,7 +51,7 @@ const DocLocator = () => {
                 {
                   <img
                     className="w-[10px] h-[10px]"
-                    src="src\assets\up-right-arrow.png"
+                    src="up-right-arrow.png"
                   />
                 }
               </div>{" "}
