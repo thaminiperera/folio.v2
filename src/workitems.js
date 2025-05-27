@@ -2,6 +2,27 @@
 
 export const workitems = [
   {
+    title: " Docs : Real-time Online Document Editor",
+    cover: "docs/docs_cover.jpg",
+    disc: "A system that provides a fluid, responsive, and feature-rich document editing and collaboration environment. It offers a modern alternative to traditional tools like Google Docs, enabling users to create, edit, and collaborate on documents in real-time with minimal latency.",
+    path: "/docs",
+    tags: [
+      "Next.js",
+      "Convex",
+      "Clerk",
+      "Tiptap Editor",
+      "Liveblocks",
+      "Vercel",
+    ],
+  },
+  {
+    title: "Cine : Real-Time Video Platform for Creators & Viewers",
+    cover: "cine/cine_cover.jpg",
+    disc: "A modern, full-featured video platform built for creators and viewers, offering real-time streaming, smart content management, interactive social features, and a scalable, responsive UI",
+    path: "/cine",
+    tags: ["Next.js", "React", "tRPC", "Mux", "Clerk", "DrizzleORM", "Vercel"],
+  },
+  {
     title: "Basic-inspired language interpreter",
     cover: "interpreter/interpreter_cover.jpg",
     disc: "A BASIC-inspired language interpreter designed to process and execute user-defined code through a structured, modular workflow. It features essential components such as tokenization, parsing, execution, and robust error handling. The language includes versatile built-in functions like PRINT() to enable practical and dynamic functionality.",

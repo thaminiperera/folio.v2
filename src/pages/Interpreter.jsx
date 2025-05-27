@@ -7,7 +7,7 @@ const Interpreter = () => {
   useEffect(() => {
     window.scrollTo(0, 0); // Scroll to the top of the page
   }, []);
-  const index = 0;
+  const index = 2;
   return (
     <div>
       <div className="relative w-full h-[200px] raleway text-[20px]">

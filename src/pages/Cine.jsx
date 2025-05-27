@@ -4,11 +4,11 @@ import Footer from "../components/Footer";
 
 import { workitems } from "../workitems";
 
-const FootGear = () => {
+const Cine = () => {
   useEffect(() => {
     window.scrollTo(0, 0); // Scroll to the top of the page
   }, []);
-  const index = 5;
+  const index = 1;
   return (
     <div>
       <div className="relative w-full h-[200px] raleway text-[20px]">
@@ -16,7 +16,7 @@ const FootGear = () => {
         <img
           className="w-full h-full object-cover absolute z-0"
           src="footgear\footgear_cover.jpg"
-          alt="FootGear Cover"
+          alt="DocLocator Cover"
         />
 
         <div className="absolute insert-0 w-full z-20">
@@ -134,6 +134,9 @@ const FootGear = () => {
               </li>
             </ul>
           </div>
+          <div className="block raleway-bold uppercase md:text-[20px] text-[18px] mt-[20px] md:mt-[30px]">
+            Foot Size Prediction
+          </div>
 
           <div>
             <h1 className="block uppercase italiana-bold text-[30px] md:text-[40px] md:mt-[50px] mt-[30px]">
@@ -230,4 +233,4 @@ const FootGear = () => {
   );
 };
 
-export default FootGear;
+export default Cine;

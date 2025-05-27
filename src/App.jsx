@@ -5,6 +5,8 @@ import Interpreter from "./pages/Interpreter";
 import DocLocator from "./pages/DocLocator";
 import Ecomm from "./pages/Ecomm";
 import FootGear from "./pages/FootGear";
+import Docs from "./pages/Docs";
+import Cine from "./pages/Cine";
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
           <Route path="/doclocator" element={<DocLocator />} />
           <Route path="/ecomm" element={<Ecomm />} />
           <Route path="/footgear" element={<FootGear />} />
+          <Route path="/docs" element={<Docs />} />
+          <Route path="/cine" element={<Cine />} />
         </Routes>
       </BrowserRouter>
     </div>

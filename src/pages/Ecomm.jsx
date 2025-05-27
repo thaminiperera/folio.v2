@@ -8,7 +8,7 @@ const Ecomm = () => {
   useEffect(() => {
     window.scrollTo(0, 0); // Scroll to the top of the page
   }, []);
-  const index = 2;
+  const index = 4;
   return (
     <div>
       <div className="relative w-full h-[200px] raleway text-[20px]">
