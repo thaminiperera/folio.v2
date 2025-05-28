@@ -20,7 +20,7 @@ const FootGear = () => {
         />
 
         <div className="absolute insert-0 w-full z-20">
-          <Namebar next={"/interpreter"} />
+          <Namebar next={"/docs"} />
         </div>
       </div>
 

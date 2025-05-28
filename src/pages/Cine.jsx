@@ -15,8 +15,8 @@ const Cine = () => {
         <div className="absolute insert-0 w-full z-10 h-[100%] bg-gradient-to-b from-[var(--gold)] to-[var(--black)] opacity-70"></div>
         <img
           className="w-full h-full object-cover absolute z-0"
-          src="footgear\footgear_cover.jpg"
-          alt="DocLocator Cover"
+          src="cine\cine_cover.jpg"
+          alt="Cine Cover"
         />
 
         <div className="absolute insert-0 w-full z-20">
@@ -30,28 +30,24 @@ const Cine = () => {
             {workitems[index].title}
           </div>
           <div className="text-justify mt-2 raleway block">
-            This mobile application redefines the online shopping experience by
-            serving as a virtual shopping assistant. Built with the Flutter
-            framework and integrated with Snapchat's AR API, it offers augmented
-            reality features that enhance user engagement with products. A
-            standout feature is its advanced foot-size prediction tool,
-            developed using Python, OpenCV, and scikit-learn, providing users
-            with a highly personalized and accurate shopping experience.
+            A modern, video platform built for creators and viewers alike.
+            Designed with performance, scalability, and user experience at its
+            core. Built with the latest web technologies like Next.js 15, React
+            19, tRPC, and styled with TailwindCSS and ShadcnUI.
           </div>
           <div className="flex my-[20px] text-[var(--red)] gap-5 block">
-            <a
-              target="_blank"
-              href="https://github.com/isurikaudeshini/foot-gear-app"
-            >
+            <a target="_blank" href="https://github.com/thaminiperera/cine">
               <div className="flex items-center gap-2 mt-[30px] md:mt-[50px] raleway-bold underline ">
                 Github Link{" "}
-                {
-                  <img
-                    className="w-[10px] h-[10px]"
-                    src="up-right-arrow.png"
-                  />
-                }
+                {<img className="w-[10px] h-[10px]" src="up-right-arrow.png" />}
               </div>{" "}
+            </a>
+
+            <a target="_blank" href="https://cine-blue.vercel.app">
+              <div className="flex items-center gap-2 mt-[30px] md:mt-[50px] raleway-bold underline ">
+                Demo{" "}
+                {<img className="w-[10px] h-[10px]" src="up-right-arrow.png" />}
+              </div>
             </a>
           </div>
           <div className="flex gap-2 my-2 raleway-bold block">
@@ -74,17 +70,22 @@ const Cine = () => {
           <div className="flex flex-col md:flex-row gap-2 md:gap-5 w-full raleway items-center mt-[20px]">
             <div className="w-[100%] md:w-[50%] flex justify-center items-center block">
               <img
-                className="w-[50%] md:w-[50%] h-[300px]"
-                src="footgear\mock_front.png"
+                className="w-[50%] md:w-[100%] h-[300px]"
+                src="cine\cine_thumbnail.png"
               />
             </div>
             <div className="w-[100%] md:w-[50%] text-justify block">
-              The project is an augmented reality (AR) mobile application
-              designed to enhance human-computer interaction. It features
-              cutting-edge AR technology that enables users to virtually try on
-              shoes through interactive filters. Additionally, the app offers
-              precise foot size measurement capabilities, providing a seamless
-              and personalized shopping experience.
+              Cine is a video platform designed to empower creators and
+              captivate viewers through a seamless experience. Leveraging the
+              latest web technologies—including Next.js 15, React 19, and
+              tRPC—Cine offers real-time video processing powered by Mux, along
+              with a sleek, fully responsive UI styled with TailwindCSS and
+              ShadcnUI. It features advanced tools such as smart thumbnails,
+              interactive comments, custom playlists, and detailed creator
+              analytics, all integrated into an intuitive and scalable platform.
+              Secure authentication is handled by Clerk, while a robust backend
+              built with PostgreSQL and DrizzleORM ensures data integrity and
+              performance at scale.
             </div>
           </div>
           <div className="raleway-bold uppercase md:text-[30px] text-[20px] mt-[20px] md:mt-[50px] block ">
@@ -92,137 +93,145 @@ const Cine = () => {
           </div>
 
           <div className="block raleway-bold uppercase md:text-[20px] text-[18px] mt-[20px] md:mt-[30px]">
-            Product Page
+            Advanced Video Player
           </div>
           <div className="raleway text-justify">
             <ul className="block flex flex-col gap-2 list-disc mt-[15px]">
               <li className="">
-                Displays a list of shoes or products available for users to
-                browse.
-              </li>
-              <li className="">
-                Each product has an option to "Try On" virtually.
+                 Enjoy high-quality streaming with dynamic resolution switching.
               </li>
             </ul>
           </div>
           <div className="block raleway-bold uppercase md:text-[20px] text-[18px] mt-[20px] md:mt-[30px]">
-            Augmented Reality (AR) Try-On
+            Real-Time Video Processing
           </div>
           <div className="raleway text-justify">
             <ul className="block flex flex-col gap-2 list-disc mt-[15px]">
               <li className="">
-                Uses Snap AR API to overlay a 3D model of a shoe onto the user's
-                foot in real-time.
-              </li>
-              <li className="">
-                Provides an interactive virtual try-on experience.
+                Powered by Mux for fast, reliable video encoding and delivery.
               </li>
             </ul>
           </div>
           <div className="block raleway-bold uppercase md:text-[20px] text-[18px] mt-[20px] md:mt-[30px]">
-            Foot Size Prediction
+            Smart Thumbnails
           </div>
           <div className="raleway text-justify">
             <ul className="block flex flex-col gap-2 list-disc mt-[15px]">
               <li className="">
-                Users can upload a photo of their foot placed on an A4 paper to
-                help the app calculate their foot size.
-              </li>
-              <li className="">
-                The app analyzes the image and predicts the foot size, offering
-                an accurate result based on the foot’s dimensions.
+                Automatically generated thumbnails that highlight the best video moments.
               </li>
             </ul>
           </div>
           <div className="block raleway-bold uppercase md:text-[20px] text-[18px] mt-[20px] md:mt-[30px]">
-            Foot Size Prediction
+            Creator Studio
+          </div>
+          <div className="raleway text-justify">
+            <ul className="block flex flex-col gap-2 list-disc mt-[15px]">
+              <li className="">
+                Track views, engagement, and other key metrics.
+              </li>
+            </ul>
+          </div>
+          <div className="block raleway-bold uppercase md:text-[20px] text-[18px] mt-[20px] md:mt-[30px]">
+            Custom Playlists
+          </div>
+          <div className="raleway text-justify">
+            <ul className="block flex flex-col gap-2 list-disc mt-[15px]">
+              <li className="">
+                Organize videos into custom playlists for better content discovery.
+              </li>
+            </ul>
+          </div>
+          <div className="block raleway-bold uppercase md:text-[20px] text-[18px] mt-[20px] md:mt-[30px]">
+            Fully Responsive
+          </div>
+          <div className="raleway text-justify">
+            <ul className="block flex flex-col gap-2 list-disc mt-[15px]">
+              <li className="">
+                Seamlessly adapts to mobile, tablet, and desktop screens.
+              </li>
+            </ul>
+          </div>
+          <div className="block raleway-bold uppercase md:text-[20px] text-[18px] mt-[20px] md:mt-[30px]">
+            Multiple Feeds
+          </div>
+          <div className="raleway text-justify">
+            <ul className="block flex flex-col gap-2 list-disc mt-[15px]">
+              <li className="">
+                 Home, trending, subscriptions, and more.
+              </li>
+            </ul>
+          </div>
+          <div className="block raleway-bold uppercase md:text-[20px] text-[18px] mt-[20px] md:mt-[30px]">
+            Interactive Comments
+          </div>
+          <div className="raleway text-justify">
+            <ul className="block flex flex-col gap-2 list-disc mt-[15px]">
+              <li className="">
+                Rich comment system with replies and likes.
+              </li>
+            </ul>
+          </div>
+          <div className="block raleway-bold uppercase md:text-[20px] text-[18px] mt-[20px] md:mt-[30px]">
+            Like & Subscribe System
+          </div>
+          <div className="raleway text-justify">
+            <ul className="block flex flex-col gap-2 list-disc mt-[15px]">
+              <li className="">
+                Built-in social engagement tools
+              </li>
+            </ul>
           </div>
 
-          <div>
-            <h1 className="block uppercase italiana-bold text-[30px] md:text-[40px] md:mt-[50px] mt-[30px]">
-              Foot-size Prediction
-            </h1>
-          </div>
-
-          <div className="flex flex-col md:flex-row gap-2 md:gap-5 w-full raleway items-center mt-[20px]">
-            {/* <div className="w-[100%] md:w-[50%] flex justify-center items-center block">
-              <img
-                className="w-[100%] md:w-[50%] h-[300px]"
-                src="src\assets\footgear\mock_front.png"
-              />
-            </div> */}
-            <div className="w-[100%] md:w-[100%] text-justify block">
-              This app is a Python-based solution designed to predict foot size
-              using computer vision techniques. It processes an image of a
-              user's foot to calculate its size and is intended for deployment
-              on an Amazon EC2 instance for accessibility and scalability.
-            </div>
-          </div>
           <div className="raleway-bold uppercase md:text-[30px] text-[20px] mt-[20px] md:mt-[50px] block ">
-            Key Features
+           Tech Stack
           </div>
 
           <div className="block raleway-bold uppercase md:text-[20px] text-[18px] mt-[20px] md:mt-[30px]">
-            Image Input
+            Frontend
           </div>
           <div className="raleway text-justify">
             <ul className="block flex flex-col gap-2 list-disc mt-[15px]">
-              <li className="">Accepts a foot image uploaded by the user.</li>
               <li className="">
-                Optional base64 encoding/decoding for secure image transmission.
+                Next.js: For server-side rendering and fast load times.
+              </li>
+              <li className="">
+                Tailwind CSS & Shadcn: For responsive and stylish UI.
+              </li>
+              <li className="">
+                Lucide-react & React-Icons: For intuitive and clear iconography.
+              </li>
+              <li className="">
+                Toast: For user notifications.
               </li>
             </ul>
           </div>
           <div className="block raleway-bold uppercase md:text-[20px] text-[18px] mt-[20px] md:mt-[30px]">
-            Image Processing Pipeline
+            Backend
           </div>
           <div className="raleway text-justify">
             <ul className="block flex flex-col gap-2 list-disc mt-[15px]">
               <li className="">
-                <b>Preprocessing:</b> Enhances the image for better feature
-                extraction.
+                tRPC: End-to-end type-safe API communication.
               </li>
               <li className="">
-                <b>K-Means Clustering:</b> Segments the foot from the
-                background.
+                PostgreSQL: Relational database for structured data.
               </li>
               <li className="">
-                <b>Edge Detection:</b> Detects foot contours.
+                DrizzleORM: Type-safe, developer-friendly ORM for database management.
               </li>
               <li className="">
-                <b>Bounding Box Detection:</b> Identifies the area enclosing the
-                foot.
+                Mux: Real-time video processing and streaming.
               </li>
             </ul>
           </div>
           <div className="block raleway-bold uppercase md:text-[20px] text-[18px] mt-[20px] md:mt-[30px]">
-            Foot Size Calculation
+            Authentication
           </div>
           <div className="raleway text-justify">
             <ul className="block flex flex-col gap-2 list-disc mt-[15px]">
               <li className="">
-                Uses the bounding box dimensions and processed image data to
-                predict foot size in centimeters.
-              </li>
-            </ul>
-          </div>
-          <div className="block raleway-bold uppercase md:text-[20px] text-[18px] mt-[20px] md:mt-[30px]">
-            Output
-          </div>
-          <div className="raleway text-justify">
-            <ul className="block flex flex-col gap-2 list-disc mt-[15px]">
-              <li className="">
-                Returns the calculated foot size as a user-readable result.
-              </li>
-            </ul>
-          </div>
-          <div className="block raleway-bold uppercase md:text-[20px] text-[18px] mt-[20px] md:mt-[30px]">
-            Modular Design
-          </div>
-          <div className="raleway text-justify">
-            <ul className="block flex flex-col gap-2 list-disc mt-[15px]">
-              <li className="">
-                Uses modualr design for maintainability and scalability.
+                Clerk: For secure user authentication and access management.
               </li>
             </ul>
           </div>
